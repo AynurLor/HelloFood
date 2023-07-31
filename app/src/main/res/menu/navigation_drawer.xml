@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/item_home"
+        android:title="@string/title_home">
+        <menu>
+            <group
+                android:id="@+id/group1"
+                android:checkableBehavior="single">
+                <item
+                    android:id="@+id/item1"
+                    android:icon="@drawable/ic_baseline_restaurant_menu_24"
+                    android:title="@string/title_home_menu" />
+                <item
+                    android:id="@+id/item1.2"
+                    android:icon="@drawable/ic_baseline_favorite_border_24"
+                    android:title="@string/title_favourites" />
+                <item
+                    android:visible="false"
+                    android:id="@+id/item1.3"
+                    android:icon="@drawable/ic_outline_local_cafe_24"
+                    android:title="@string/title_aust_canteen" />
+
+            </group>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/item_account"
+        android:title="@string/title_account">
+        <menu>
+            <group
+                android:id="@+id/group2"
+                android:checkableBehavior="single">
+                <item
+                    android:id="@+id/item2"
+                    android:icon="@drawable/ic_baseline_person_outline_24"
+                    android:title="@string/title_profile" />
+                <item
+                    android:id="@+id/item2.1"
+                    android:icon="@drawable/ic_outline_place_24"
+                    android:title="@string/title_delivery_address" />
+                <item
+                    android:id="@+id/item3"
+                    android:icon="@drawable/ic_baseline_content_paste_24"
+                    android:title="@string/title_current_order" />
+
+                <item
+                    android:id="@+id/item4"
+                    android:icon="@drawable/ic_baseline_history_24"
+                    android:title="@string/title_order_history" />
+            </group>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/item_support"
+        android:title="@string/title_support">
+        <menu>
+            <group
+                android:id="@+id/group3"
+                android:checkableBehavior="single">
+                <item
+                    android:id="@+id/item5"
+                    android:icon="@drawable/ic_outline_share_24"
+                    android:title="@string/title_share_app" />
+
+                <item
+                    android:id="@+id/item6"
+                    android:icon="@drawable/ic_outline_bug_report_24"
+                    android:title="@string/title_report_bug" />
+
+                <item
+                    android:id="@+id/item7"
+                    android:icon="@drawable/ic_outline_info_24"
+                    android:title="@string/title_about_us" />
+            </group>
+        </menu>
+    </item>
+
+
+    <group
+        android:id="@+id/group4"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/item8"
+            android:icon="@drawable/ic_outline_settings_24"
+            android:title="@string/title_settings" />
+        <item
+            android:id="@+id/item9"
+            android:icon="@drawable/ic_outline_login_24"
+            android:title="@string/title_log_out" />
+
+    </group>
+
+</menu>

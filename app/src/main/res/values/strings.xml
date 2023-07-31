@@ -1,0 +1,226 @@
+<resources>
+    <!--  logo text first page  -->
+    <string name="app_name" translatable="false">Hello Food</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="order_date_time"><![CDATA[Order Date & Time :]]></string>
+    <string name="title_activity_payment_success_delivery">PaymentSuccessDeliveryActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+
+    <!--  fragment_second layout  -->
+    <string name="previous">Previous</string>
+
+
+    <!--  fragment activity main  -->
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_welcome_to_hello_food">Welcome To Hello Food</string>
+    <string name="edit_email_id">Email ID</string>
+    <string name="edit_password">Password</string>
+    <string name="button_login">Login</string>
+    <string name="text_clicked_forgot_password">Forgot Password</string>
+    <string name="text_dont_have_an_account">Don\'t Have An Account?</string>
+    <string name="text_clicked_register">Register</string>
+
+    <string name="title_reset_password">Reset Password</string>
+    <string name="button_reset">Reset</string>
+    <string name="title_create_account">Create Account</string>
+    <string name="text_currency">Tk </string>
+    <string name="title_restaurants">Restaurants</string>
+
+    <!--  header_navigation layout  -->
+    <string name="title_name_user">Rahim Hasan</string>
+    <string name="title_email_user">rahimhasan@gmail.com</string>
+
+    <!--  fragment_profile layout  -->
+    <string name="text_edit_first_name">First Name</string>
+    <string name="text_edit_last_name">Last Name</string>
+
+    <string name="helper_text_required">required*</string>
+    <string name="text_edit_confirm_password">Confirm Password</string>
+    <string name="text_edit_phone_number">Phone Number</string>
+    <string name="text_edit_address">Address</string>
+    <string name="button_sign_up">Sign Up</string>
+    <string name="text_already_have_an_account">Already Have An Account?</string>
+    <string name="text_button_login">login</string>
+    <string name="text_cart">Cart</string>
+    <string name="text_cart_is_empty_nadd_items_to_cart_show_here">Cart is empty.\nAdd items to cart show here.</string>
+    <string name="button_confirm_cart">Confirm Cart</string>
+    <string name="title_order_review">Order Review</string>
+    <string name="title_check_out">Check Out</string>
+    <string name="title_home">Home</string>
+    <string name="title_payment_success">Payment Success</string>
+    <string name="text_estimated_pick_up_time">Estimated Pick Up Time :</string>
+    <string name="button_back_to_home">Back To Home</string>
+    <string name="text_estimated_delivery_time">Estimated Delivery Time :</string>
+
+    <!--  fragment_shop_menu layout  -->
+    <string name="title_restaurant_menu">Restaurant Menu</string>
+    <string name="text_bangla_khana">Bangla Khana</string>
+    <string name="text_bangladeshi">Bangladeshi</string>
+    <string name="text_min">min</string>
+    <string name="text_delivery_time">Delivery Time :</string>
+
+    <!--  fragment_current_orders layout  -->
+    <string name="title_order_id">Order ID :</string>
+    <string name="text_order_pick_up_time">Order Pick Up Time :</string>
+    <string name="text_order_type">Order Type :</string>
+    <string name="text_order_items">Order Items :</string>
+    <string name="text_total_cost">Total Cost</string>
+    <string name="button_order_ncollected">Order\nCollected</string>
+    <string name="button_cancel_norder">Cancel\nOrder</string>
+    <string name="text_notion_you_have_no_active_order">You have no active order.\nPlace an order to show here.</string>
+
+    <!--  fragment_home_menu layout  -->
+    <string name="text_cuisines">Cuisines</string>
+    <string name="text_show_all">Show All</string>
+
+    <!--  fragment_order_address layout  -->
+    <string name="title_latitude">Latitude</string>
+    <string name="title_longtitude">Longtitude</string>
+    <string name="button_update">Update</string>
+
+    <!--  fragment_payment layout  -->
+    <string name="radio_button_cash">Cash</string>
+    <string name="radio_button_credit_card_debit_card">Credit Card / Debit Card</string>
+    <string name="text_hint_card_number">Card Number</string>
+    <string name="text_hint_expiry_date_mm_yy">Expiry Date (MM/YY)</string>
+    <string name="text_hint_card_holder_name">Card Holder Name</string>
+    <string name="button_pay">Pay</string>
+    <string name="radio_button_bkash">Bkash</string>
+    <string name="button_confirm_payment">Confirm Payment</string>
+    <string name="title_payment_methods">Payment Methods</string>
+
+    <!--  fragment_profile layout  -->
+    <string name="edit_text_email">Email</string>
+    <string name="edit_text_mobile">Mobile</string>
+    <string name="button_update_profile">Update Profile</string>
+    <string name="button_delete_account">Delete Account</string>
+
+    <!--  fragment_review_order layout  -->
+    <string name="text_item_total">Item Total</string>
+    <string name="text_delivery_fee">Delivery Fee</string>
+    <string name="radio_button_delivery">Delivery</string>
+    <string name="radio_button_pick_up">Pick Up</string>
+    <string name="button_proceed_to_payment">Proceed To Payment</string>
+
+    <!--  fragment_search layout  -->
+    <string name="edit_text_search_restaurants">Search Restaurants</string>
+    <string name="text_nothing_found">Nothing Found.</string>
+
+    <!--  item_cart layout  -->
+    <string name="text_quantity">Quantity</string>
+
+    <!--  item_category layout  -->
+    <string name="text_menu_picture_middle_eastern">Middle Eastern</string>
+    <string name="text_add_to_cart">Add To Cart</string>
+    <string name="text_successful">Successful</string>
+
+    <!--  item_review layout  -->
+    <string name="text_slash_quantity">/Quantity</string>
+    <string name="text_colon_quantity">Quantity :</string>
+
+    <!--  Cart  activity -->
+    <string name="notify_ups_title">Opps!!</string>
+    <string name="notify_have_active_order">It seems that you already have an active order.Please collect your order first or cancel it before making another order.</string>
+    <string name="text_ok">Ok</string>
+    <string name="toast_text_ok">Updated</string>
+    <string name="toast_text_removed_all_items">Removed all items from cart</string>
+
+    <!--  ForgotPassword activity  -->
+    <string name="toast_text_enter_email">Please Enter Your Email</string>
+    <string name="toast_text_reset_password">Check Your Email To Reset Your Password.</string>
+    <string name="toast_text_please_try_again">Something Went Wrong. Please Try Again</string>
+
+    <!--  Home activity  -->
+    <string name="toast_text_select_address">Please select a delivery address in order to continue.</string>
+    <string name="toast_text_click_1_2_item">item 1.2 clicked</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_current_order">Current Order</string>
+    <string name="title_order_history">Order History</string>
+    <string name="toast_text_click_5_item">item 5 clicked</string>
+    <string name="toast_text_click_6_item">item 6 clicked</string>
+    <string name="toast_text_click_7_item">item 7 clicked</string>
+    <string name="toast_text_click_8_item">item 8 clicked</string>
+    <string name="title_delivery_address">Delivery Address</string>
+    <string name="text_available_dhaka_city">Our service is only available in Dhaka City for now. Thank you for understanding. </string>
+    <string name="text_log_out">Log out of your account?</string>
+    <string name="text_yes">Yes</string>
+    <string name="text_no">No</string>
+    <string name="toast_text_logged_out">Logged Out</string>
+    <string name="toast_text_back_to_exit">Press back again to exit</string>
+    <string name="text_search">Search</string>
+
+    <!--  HomeMenuFragment  -->
+    <string name="title_bangladeshi">Bangladeshi</string>
+    <string name="title_middle_eastern">Middle Eastern</string>
+    <string name="title_italian">Italian</string>
+    <string name="title_fast_food">Fast Food</string>
+    <string name="title_kebab">Kebab</string>
+    <string name="title_asian">Asian</string>
+
+    <!--    main activity-->
+    <string name="toast_text_enter_email_password">Please Enter Your Email Address And Password</string>
+    <string name="toast_text_enter_password">Please Enter Your Password</string>
+    <string name="toast_text_press_back_exit">Press back again to exit</string>
+    <string name="toast_text_login_successful">Login Successful.Redirecting.</string>
+    <string name="toast_text_verify_email">Please Verify Your Email.</string>
+    <string name="toast_text_login_failed">Login Failed. Please Check Your Credentials.</string>
+
+    <!--  orderAddressFragment  -->
+    <string name="title_order_address">Order Address</string>
+    <string name="toast_text_location">Location Updated</string>
+    <string name="toast_text_location_failed">Location Update Failed. Please Try Again.</string>
+    <string name="toast_text_order_address">Order Address</string>
+    <string name="toast_text_payment_failed">Payment Failed.</string>
+    <string name="toast_text_failed">Failed</string>
+    <string name="title_restaurant">Restaurant</string>
+
+    <!--  profile fragment  -->
+    <string name="text_message_you_sure">Are You Sure? </string>
+    <string name="toast_text_account_deleted">Account Deleted</string>
+    <string name="toast_text_something_wrong">Something Went Wrong</string>
+    <string name="toast_text_profile_updated">Profile Updated</string>
+    <string name="toast_text_profile_updated_failed">Profile Update Failed. Please Try Again.</string>
+
+    <!--  register activity  -->
+    <string name="toast_text_fill_up_failed">Please Fill Up The Required Fields</string>
+    <string name="toast_text_valid_info">Please Provide Valid Info</string>
+    <string name="text_message_verification_email">A verification email has been sent to $email. Please verify to complete your registration.</string>
+    <string name="toast_text_registration_failed">Registration Failed.</string>
+    <string name="toast_text_authentication_failed">Authentication failed.</string>
+    <string name="toast_text_email_failed">Invalid Email Address</string>
+    <string name="toast_text_valid_min_8_chars">Must Be Minimum 8 Characters</string>
+    <string name="toast_text_valid_1_uppers_chars">Must Contain 1 Uppercase Character</string>
+    <string name="toast_text_valid_1_lowers_chars">Must Contain 1 Lowercase Character</string>
+    <string name="toast_text_valid_1_digit">Must Contain 1 Digit</string>
+    <string name="toast_text_valid_1_special_chars">Must Contain 1 Special Character (!@#$%^&amp;*-+=)</string>
+    <string name="toast_text_password_doesnt_matcher">"Password Doesn't Match"</string>
+    <string name="toast_text_valid_11_digits">Must Be 11 Digits</string>
+    <string name="toast_text_valid_all_digits">Must Be All Digits</string>
+
+    <!--  shop menu activity  -->
+    <string name="text_message_select_address">Please select a delivery address from Order Address menu in order to get delivery service.</string>
+    <string name="toast_text_added_cart">Added To Cart</string>
+    <string name="toast_text_select_quantity">Please Select Desired Quantity</string>
+    <string name="toast_text_clear_cart">You can only order from one restaurant at a time.\nPlease clear your cart first in order to order from this restaurant.</string>
+    <string name="title_user">User</string>
+
+    <!--  navigation_drawer.xml  -->
+    <string name="title_home_menu">Home Menu</string>
+    <string name="title_favourites">Favourites</string>
+    <string name="title_aust_canteen">AUST Canteen</string>
+    <string name="title_account">Account</string>
+    <string name="title_support">Support</string>
+    <string name="title_share_app">Share App</string>
+    <string name="title_report_bug">Report Bug</string>
+    <string name="title_about_us">About Us</string>
+    <string name="title_settings">Settings</string>
+    <string name="title_log_out">Log Out</string>
+
+</resources>
